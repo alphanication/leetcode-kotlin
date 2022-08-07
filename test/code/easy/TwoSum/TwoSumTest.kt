@@ -1,5 +1,6 @@
-package code.easy
+package code.easy.TwoSum
 
+import code.easy.TwoSum.TwoSum
 import org.junit.Test
 
 import org.junit.Assert.*
