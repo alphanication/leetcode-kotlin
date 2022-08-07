@@ -1,4 +1,4 @@
-package code.easy
+package code.easy.PalindromeNumber
 
 import org.junit.Test
 
