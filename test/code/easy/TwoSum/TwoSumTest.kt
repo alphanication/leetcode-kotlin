@@ -33,4 +33,13 @@ class TwoSumTest {
 
         assertArrayEquals(expected, TwoSum().twoSum(nums = nums, target = target))
     }
+
+    @Test
+    fun twoSum4() {
+        val expected = intArrayOf(2, 3)
+        val nums = intArrayOf(1, 0, 6, 4)
+        val target = 10
+
+        assertArrayEquals(expected, TwoSum().twoSum(nums = nums, target = target))
+    }
 }
