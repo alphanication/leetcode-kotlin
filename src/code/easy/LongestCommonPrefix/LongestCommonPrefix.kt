@@ -1,5 +1,7 @@
 package code.easy.LongestCommonPrefix
 
+// TODO: Vorobey Egor / 10.08.2022
+
 class LongestCommonPrefix {
 
     fun longestCommonPrefix(strs: Array<String>): String {
