@@ -1,0 +1,40 @@
+package code.easy.LongestCommonPrefix
+
+import org.junit.Test
+
+import org.junit.Assert.*
+
+class LongestCommonPrefixTest {
+
+    @Test
+    fun longestCommonPrefix1() {
+        val inputArrayStr = arrayOf("flower","flow","flight")
+        val expectedPrefix = "fl"
+
+        assertEquals(expectedPrefix, LongestCommonPrefix().longestCommonPrefix(strs = inputArrayStr))
+    }
+
+    @Test
+    fun longestCommonPrefix2() {
+        val inputArrayStr = arrayOf("dog","racecar","car")
+        val expectedPrefix = ""
+
+        assertEquals(expectedPrefix, LongestCommonPrefix().longestCommonPrefix(strs = inputArrayStr))
+    }
+
+    @Test
+    fun longestCommonPrefix3() {
+        val inputArrayStr = arrayOf("a")
+        val expectedPrefix = "a"
+
+        assertEquals(expectedPrefix, LongestCommonPrefix().longestCommonPrefix(strs = inputArrayStr))
+    }
+
+    @Test
+    fun longestCommonPrefix4() {
+        val inputArrayStr = arrayOf("acc","aaa","aaba")
+        val expectedPrefix = "a"
+
+        assertEquals(expectedPrefix, LongestCommonPrefix().longestCommonPrefix(strs = inputArrayStr))
+    }
+}
