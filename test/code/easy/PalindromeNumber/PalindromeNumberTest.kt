@@ -29,4 +29,10 @@ class PalindromeNumberTest {
         val inputNumber = 242
         assertTrue(PalindromeNumber().isPalindrome(x = inputNumber))
     }
+
+    @Test
+    fun isPalindrome5() {
+        val inputNumber = 1
+        assertTrue(PalindromeNumber().isPalindrome(x = inputNumber))
+    }
 }
