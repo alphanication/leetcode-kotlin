@@ -1,6 +1,6 @@
 # leetcode-kotlin
 
-This repository is for publishing my solutions on leetcode platform, in kotlin language.
+This repository is for publishing my solutions on leetcode platform, in Kotlin language.
 
 https://leetcode.com/
 
