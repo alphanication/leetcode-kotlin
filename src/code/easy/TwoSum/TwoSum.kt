@@ -2,6 +2,8 @@ package code.easy.TwoSum
 
 // TODO: Vorobey Egor / 07.08.2022
 
+private val DEFAULT_VALUE = intArrayOf(-1, -1)
+
 class TwoSum {
 
     fun twoSum(nums: IntArray, target: Int): IntArray {
@@ -13,9 +15,5 @@ class TwoSum {
         }
 
         return DEFAULT_VALUE
-    }
-
-    companion object {
-        private val DEFAULT_VALUE = intArrayOf(-1, -1)
     }
 }
