@@ -1,7 +1,6 @@
 package code.easy.ValidParentheses
 
 import java.util.*
-import kotlin.collections.HashMap
 
 // TODO: Vorobey Egor / 12.08.2022
 

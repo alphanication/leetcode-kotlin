@@ -15,7 +15,7 @@ class RomanToInteger {
         return result
     }
 
-    fun returnHashMapRomanInteger() : HashMap<Char, Int> {
+    fun returnHashMapRomanInteger(): HashMap<Char, Int> {
         val romanInteger = HashMap<Char, Int>()
         romanInteger['I'] = 1
         romanInteger['V'] = 5
