@@ -11,6 +11,7 @@ A happy number is a number defined by the following process:
 Return true if n is a happy number, and false if not.
 
 ### Example 1:
+
     Input: n = 19
     Output: true
     Explanation:
@@ -19,12 +20,14 @@ Return true if n is a happy number, and false if not.
     62 + 82 = 100
     12 + 02 + 02 = 1
     Output: true
-    
+
 ### Example 2:
+
     Input: n = 2
     Output: false
 
 ### Constraints:
+
     1 <= n <= 231 - 1
 
 # https://leetcode.com/problems/happy-number/
