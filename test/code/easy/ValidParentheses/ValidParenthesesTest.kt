@@ -1,8 +1,7 @@
 package code.easy.ValidParentheses
 
-import org.junit.Test
-
 import org.junit.Assert.*
+import org.junit.Test
 
 class ValidParenthesesTest {
 

@@ -1,8 +1,7 @@
 package code.easy.HappyNumber
 
-import org.junit.Assert.*
+import org.junit.Assert.assertEquals
 import org.junit.Test
-import kotlin.math.exp
 
 class HappyNumberTest {
 
