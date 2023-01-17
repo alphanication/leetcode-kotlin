@@ -21,5 +21,4 @@ A word is a maximal substring consisting of non-space characters only.
     s consists of only English letters and spaces ' '.
     There will be at least one word in s.
 
-
 # https://leetcode.com/problems/length-of-last-word/
