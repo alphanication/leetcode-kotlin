@@ -1,9 +1,7 @@
 package code.easy.TwoSum
 
-import code.easy.TwoSum.TwoSum
+import org.junit.Assert.assertArrayEquals
 import org.junit.Test
-
-import org.junit.Assert.*
 
 class TwoSumTest {
 

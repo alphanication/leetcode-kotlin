@@ -1,8 +1,7 @@
 package code.easy.RomanToInteger
 
+import org.junit.Assert.assertEquals
 import org.junit.Test
-
-import org.junit.Assert.*
 
 class RomanToIntegerTest {
 

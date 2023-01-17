@@ -1,6 +1,6 @@
 package code.easy.LengthOfLastWorld
 
-import org.junit.Assert.*
+import org.junit.Assert.assertEquals
 import org.junit.Test
 
 class LengthOfLastWordTest {

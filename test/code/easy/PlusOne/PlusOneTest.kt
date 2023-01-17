@@ -1,6 +1,6 @@
 package code.easy.PlusOne
 
-import org.junit.Assert.*
+import org.junit.Assert.assertEquals
 import org.junit.Test
 
 private const val EMPTY_STRING = ""
